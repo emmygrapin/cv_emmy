@@ -26,6 +26,9 @@ figure {margin top:0px;
 				margin:0;
 				padding:1%;
 				width: 33%;}
+
+.photo {float:left;}
+
 /*bloc colonne de droite inline largeur 73% */
 .colonne_droite {display:inline-block;
 				padding:1%;
