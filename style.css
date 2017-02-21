@@ -1,0 +1,118 @@
+/*Url des fonts Lobster Two et Reem Kufi provenant de google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Reem+Kufi|Abel');
+
+body {background-image: url("background.png");
+    	margin-top: 0px;}
+
+.photo {width: 50px;
+	height: 50px;}
+
+/*Supprime les puces des listes*/
+ul{list-style: none;}
+
+/*Style du header */
+header {width:950px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #F1FBFC;}
+
+figure {margin top:0px;
+		margin-bottom:0px;
+		margin-left:5px;
+		margin-right:5px;}
+
+/*bloc colonne de gauche flottante largeur 23% */
+.colonne_gauche {float:left;
+				margin:0;
+				padding:1%;
+				width: 33%;}
+/*bloc colonne de droite inline largeur 73% */
+.colonne_droite {display:inline-block;
+				padding:1%;
+				width: 63%;}
+/*Style de section*/
+section {width:950px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+/**/
+.clear {clear: both;}
+
+/*couleurs des background*/
+section div.colonne_gauche {background-color:#E7E7E7;}
+section div.colonne_droite {background-color: white;}
+
+
+.date {float:left;
+		width:15%;}
+.form {display: inline-block;}
+
+p.text {margin:0;line-height: 100%;}
+
+
+.title_H {font-size: 30px;font-weight: bold}
+.Sub-title_H {font-size: 24px}
+
+.Coordonnées{text-align: center; margin:1%;}
+h1 {color:#372f2d;font-family:"Reem Kufi";font-size: 30px;margin:5px;}
+.mail_phone {color:#372f2d;font-family:"Reem Kufi";font-weight:bold ; font-size:18px;}
+
+h2 {color:#372f2d;
+	font-family:"Abel","Helvetica","arial black";
+	font-weight:bold;
+	font-size:24px;
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom:0;}
+
+
+h4 {color:#00779f;font-family:"calibri",arial;font-size:18px;margin: 5px}
+
+.text {color:#818181;font-family:"calibri",arial;font-size:14px;line-height: 50%;}
+
+/*en Section, la colonne de gauche*/
+
+/*les compétences*/
+/*les titres*/
+h3 {font-family:'Lobster Two',cursive;
+font-size:24px; 
+/*font-style:italic;*/}
+
+.h3_1 {color:#f76c7d;
+	text-align: left;margin-top: 50px;}
+.h3_2 {color:#00779f;
+	text-align: right;margin-top:50px;}
+.h3_3 {color:#372f2d; margin-top: 50px;}
+
+/*contenu des compétences*/
+.list_1{color:#f76c7d;
+	font-family:"calibri",arial;
+	font-weight:bold ;
+	font-size:18px;
+	line-height: 100%;
+	text-align: left}
+.list_2{color:#00779f;
+	font-family:"calibri",arial;
+	font-weight:bold ;
+	font-size:18px;
+	line-height: 100%;
+	text-align: right}
+.list_3{color:#372f2d;
+	font-family:"calibri",arial;
+	font-weight:bold ;
+	font-size:18px;
+	line-height: 100%;}
+
+/*.list_1,.list_2,.list_3{font-family:"Helvetica Neue";font-weight:bold;font-size:14px;}*/
+
+/* Header: Développeur Web - Stage en développement Web*/
+.header {color: #00779f; font-family:"Reem Kufi","arial black", serif;line-height:60%;
+text-align:center;
+padding-top: 60px}
+
+/*bandeau à propos des cookies*/
+/*mettre un fond coloré avec des marges de 10 px autour*/
+#cookies {background-color:#c4c2c2;padding:10px 10px;}
+/*faire disparaître le bandeau cookies quand il est hide*/
+#cookies.hide {display:none;}
+
