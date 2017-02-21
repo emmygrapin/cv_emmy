@@ -27,7 +27,15 @@ figure {margin top:0px;
 				padding:1%;
 				width: 33%;}
 
-.photo {float:left;}
+
+#menu_horizontal li {height: 30px;
+	font-family:"Abel","Helvetica","arial black";
+	font-size: 18px;
+	background: white ;
+  	color: #fff ;
+  	margin-bottom: 5px;
+  	margin-left: 200px;
+}
 
 /*bloc colonne de droite inline largeur 73% */
 .colonne_droite {display:inline-block;
